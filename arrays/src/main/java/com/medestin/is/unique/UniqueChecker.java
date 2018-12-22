@@ -1,21 +1,28 @@
 package com.medestin.is.unique;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
 public class UniqueChecker {
-    private final Set<Character> alphabetSet = new HashSet<>();
-
-    public UniqueChecker() {
-        for(char c : "abcdefghijklmnopqrst".toCharArray()){
-            this.alphabetSet.add(c);
-        }
-    }
 
     public boolean checkUnique(String string){
-        String lowercasedString = string.toLowerCase();
+        Set<Character> set = new HashSet<>();
+        char[] chars = stringToSortedArray(string);
 
-        long count = alphabetSet.stream().filter(character -> lowercasedString.contains(character.toString())).count();
-        return count == alphabetSet.size();
+        for(char c : chars){
+            if(set.contains(c)){
+                return false;
+            } else {
+                set.add(c);
+            }
+        }
+        return true;
+    }
+
+    private char[] stringToSortedArray(String string){
+        char[] array = string.toLowerCase().replaceAll("[^a-z]", "").toCharArray();
+        Arrays.sort(array);
+        return array;
     }
 }

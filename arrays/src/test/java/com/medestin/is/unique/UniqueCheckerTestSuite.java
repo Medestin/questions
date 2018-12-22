@@ -9,7 +9,7 @@ public class UniqueCheckerTestSuite {
 
     @Test
     public void testPositive(){
-        String sentence = "The Quick Brown Fox Jumps Over The Lazy Dog";
+        String sentence = "abcdefgh";
 
         assertTrue(uniqueChecker.checkUnique(sentence));
     }
