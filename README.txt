@@ -15,3 +15,5 @@ Task 1.6 - String Compression: Implement a method to perform basic string compre
             the original string. You can assume the string has only uppercase and lowercase letters (a - z).
 Task 1.7 - Rotate Matrix: Given an image represented by an NxN matrix, where each pixel in the image is 4
             bytes, write a method to rotate the image by 90 degrees. (an you do this in place?
+Task 1.8 - Zero Matrix: Write an algorithm such that if an element in an MxN matrix is 0, its entire row and
+            column are set to O.
