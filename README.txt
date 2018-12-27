@@ -17,3 +17,6 @@ Task 1.7 - Rotate Matrix: Given an image represented by an NxN matrix, where eac
             bytes, write a method to rotate the image by 90 degrees. (an you do this in place?
 Task 1.8 - Zero Matrix: Write an algorithm such that if an element in an MxN matrix is 0, its entire row and
             column are set to O.
+Task 1.9 - String Rotation: Assume you have a method isSubstring which checks if one word is a substring
+            of another. Given two strings, S1 and S2, write code to check if S2 is a rotation of S1 using only one
+            call to isSubstring (e.g., "waterbottle" is a rotation of"erbottlewat").
