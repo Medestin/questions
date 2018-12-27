@@ -6,3 +6,6 @@ Task 1.3 - URLify: Write a method to replace all spaces in a string with '%20'.
 Task 1.4 - Palindrome Permutation: Given a string, write a function to check if it is a permutation of a palindrome.
             A palindrome is a word or phrase that is the same forwards and backwards. A permutation
             is a rea rrangement of letters. The palindrome does not need to be limited to just dictionary words.
+Task 1.5 - One Away: There are three types of edits that can be performed on strings: insert a character,
+            remove a character, or replace a character. Given two strings, write a function to check if they are
+            one edit (or zero edits) away.
