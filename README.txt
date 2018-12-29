@@ -22,3 +22,7 @@ Task 1.9 - String Rotation: Assume you have a method isSubstring which checks if
             call to isSubstring (e.g., "waterbottle" is a rotation of"erbottlewat").
 
 Module 2: Linked lists:
+
+Task 2.1 - Remove Dups: Write code to remove duplicates from an unsorted linked list.
+            FOLLOW UP
+            How would you solve this problem if a temporary buffer is not allowed?
