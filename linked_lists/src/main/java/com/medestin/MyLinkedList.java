@@ -24,4 +24,19 @@ public class MyLinkedList {
 
         currentNode.setNext(node);
     }
+
+    public int size(){
+        if(headNode == null){
+            return 0;
+        }
+
+        int count = 1;
+        Node currentNode = headNode;
+
+        while(currentNode.getNext() != null){
+            ++count;
+            currentNode = currentNode.getNext();
+        }
+        return count;
+    }
 }
