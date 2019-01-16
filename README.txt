@@ -37,3 +37,4 @@ Task 2.4 - Partition: Write code to partition a linked list around a value x, su
 Task 2.5 - Sum Lists: You have two numbers represented by a linked list, where each node contains a single
             digit. The digits are stored in reverse order, such that the 1 's digit is at the head of the list. Write a
             function that adds the two numbers and returns the sum as a linked list.
+Task 2.6 - Palindrome: Implement a function to check if a linked list is a palindrome.
