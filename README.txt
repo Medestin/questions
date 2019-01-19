@@ -42,3 +42,7 @@ Task 2.7 - Intersection: Given two (singly) linked lists, determine if the two l
            node. Note that the intersection is defined based on reference, not value. That is, if the kth
            node of the first linked list is the exact same node (by reference) as the jth node of the second
            linked list, then they are intersecting.
+Task 2.8 - Loop Detection: Given a circular linked list, implement an algorithm that returns the node at the
+            beginning of the loop.
+            Circular linked list: A (corrupt) linked list in which a node's next pointer points to an earlier node, so
+            as to make a loop in the linked list.
