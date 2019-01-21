@@ -16,8 +16,9 @@ public class MyStack<T> {
 
     public void push(T item){
         StackNode<T> node = new StackNode<>(item);
-        top.next = top;
+        node.next = top;
         top = node;
+
     }
 
     public T peek(){
@@ -29,6 +30,20 @@ public class MyStack<T> {
 
     public boolean isEmpty(){
         return top == null;
+    }
+
+    public int size(){
+        if(top == null){
+            return 0;
+        } else {
+            int counter = 1;
+            StackNode current = top;
+            while(current.next != null){
+                ++counter;
+                current = current.next;
+            }
+            return counter;
+        }
     }
 
     private static class StackNode<T>{
