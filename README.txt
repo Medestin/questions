@@ -46,3 +46,5 @@ Task 2.8 - Loop Detection: Given a circular linked list, implement an algorithm 
             beginning of the loop.
             Circular linked list: A (corrupt) linked list in which a node's next pointer points to an earlier node, so
             as to make a loop in the linked list.
+
+Module 3: Stacks and Queues:
