@@ -57,3 +57,4 @@ Task 3.3 - Stack of Plates: Imagine a (literal) stack of plates. If the stack ge
             (that is, pop ( ) should return the same values as it would if there were just a single stack).
            FOLLOW UP
             Implement a function popAt (int index) which performs a pop operation on a specific sub-stack.
+Task 3.4 - Queue via Stacks: Implement a MyQueue class which implements a queue using two stacks.
