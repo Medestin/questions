@@ -58,3 +58,6 @@ Task 3.3 - Stack of Plates: Imagine a (literal) stack of plates. If the stack ge
            FOLLOW UP
             Implement a function popAt (int index) which performs a pop operation on a specific sub-stack.
 Task 3.4 - Queue via Stacks: Implement a MyQueue class which implements a queue using two stacks.
+Task 3.5 - Sort Stack: Write a program to sort a stack such that the smallest items are on the top. You can use
+           an additional temporary stack, but you may not copy the elements into any other data structure
+           (such as an array). The stack supports the following operations: push, pop, peek, and isEmpty.
