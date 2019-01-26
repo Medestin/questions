@@ -2,4 +2,5 @@ rootProject.name = 'questions'
 include 'arrays'
 include 'linked_lists'
 include 'stacks_queues'
+include 'trees_graphs'
 

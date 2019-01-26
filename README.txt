@@ -67,3 +67,6 @@ Task 3.6 - Animal Shelter: An animal shelter, which holds only dogs and cats, op
             that type). They cannot select which specific animal they would like. Create the data structures to
             maintain this system and implement operations such as enqueue, dequeueAny, dequeueDog,
             and dequeueCat. You may use the built-in Linked List data structure.
+
+Module 4: Trees and Graphs:
+
