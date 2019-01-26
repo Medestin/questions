@@ -70,3 +70,5 @@ Task 3.6 - Animal Shelter: An animal shelter, which holds only dogs and cats, op
 
 Module 4: Trees and Graphs:
 
+Task 4.1 - Route Between Nodes: Given a directed graph, design an algorithm to find out whether there is a
+           route between two nodes.
