@@ -72,3 +72,5 @@ Module 4: Trees and Graphs:
 
 Task 4.1 - Route Between Nodes: Given a directed graph, design an algorithm to find out whether there is a
            route between two nodes.
+Task 4.2 - Minimal Tree: Given a sorted (increasing order) array with unique integer elements, write an algorithm
+           to create a binary search tree with minimal height.
