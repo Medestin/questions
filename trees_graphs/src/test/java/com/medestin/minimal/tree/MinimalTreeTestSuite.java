@@ -17,8 +17,8 @@ public class MinimalTreeTestSuite {
         }
 
         TreeNode root = minimalTree.createMinimalBST(array);
-        TreeNode left = root.getChildren().get(0);
-        TreeNode right = root.getChildren().get(1);
+        TreeNode left = root.getChildren()[0];
+        TreeNode right = root.getChildren()[1];
 
         assertTrue(root.getValue() > left.getValue());
         assertTrue(root.getValue() < right.getValue());

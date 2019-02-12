@@ -15,8 +15,8 @@ public class MinimalTree {
 
         int middle = (startPoint + endPoint + 1)/2;
         TreeNode parent = new TreeNode(array[middle]);
-        parent.getChildren().add(recursiveBSTCreation(array, startPoint, middle-1));
-        parent.getChildren().add(recursiveBSTCreation(array, middle +1, endPoint));
+        parent.getChildren()[0] = (recursiveBSTCreation(array, startPoint, middle-1));
+        parent.getChildren()[1] = (recursiveBSTCreation(array, middle +1, endPoint));
 
         return parent;
     }
@@ -24,7 +24,7 @@ public class MinimalTree {
     private TreeNode createLeaves(int[] array, int startPoint, int endPoint){
          if (endPoint - startPoint == 1){
             TreeNode parent = new TreeNode(array[endPoint]);
-            parent.getChildren().add(new TreeNode(array[startPoint]));
+            parent.getChildren()[0] = (new TreeNode(array[startPoint]));
             return parent;
         } else {
              return new TreeNode(array[endPoint]);
