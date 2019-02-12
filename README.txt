@@ -74,3 +74,5 @@ Task 4.1 - Route Between Nodes: Given a directed graph, design an algorithm to f
            route between two nodes.
 Task 4.2 - Minimal Tree: Given a sorted (increasing order) array with unique integer elements, write an algorithm
            to create a binary search tree with minimal height.
+Task 4.3 - List of Depths: Given a binary tree, design an algorithm which creates a linked list of all the nodes
+           at each depth (e.g., if you have a tree with depth D, you'll have D linked lists).
